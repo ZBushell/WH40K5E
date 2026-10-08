@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Dark Eldar" id="f9e0-9be9-a007-5d68" battleScribeVersion="2.03" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" library="false" revision="6" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Dark Eldar" id="f9e0-9be9-a007-5d68" battleScribeVersion="2.03" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" library="false" revision="7" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink name="Asdrubael Vect" id="f016-64de-17bf-b15a" hidden="false" import="true" targetId="586d-932e-90f6-ed16" type="selectionEntry">
       <categoryLinks>
@@ -1362,7 +1362,7 @@
     </profile>
     <profile name="Enhanced Aethersails" id="74ef-0200-0c7d-c281" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
       <characteristics>
-        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with enhanced aethersails can move an additional 2D6&quot;, though passengets may not disembark that turn, and the vehicle and its passengers may not shoot in the following Shooting phase.</characteristic>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with enhanced aethersails can move an additional 2D6&quot;, though passengers may not disembark that turn, and the vehicle and its passengers may not shoot in the following Shooting phase.</characteristic>
       </characteristics>
     </profile>
     <profile name="Envenomed Blades" id="95c0-0f07-62d5-62d1" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
