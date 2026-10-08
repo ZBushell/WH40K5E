@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="6360-ab90-4c59-ba46" name="Necrons" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="6360-ab90-4c59-ba46" name="Necrons" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedProfiles>
     <profile name="Anrakyr the Traveller" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="ffd3-0fd4-8f13-7be2">
       <characteristics>
@@ -907,6 +907,39 @@ If the model had joined a unit when it was removed as a casualty, and the roll w
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast, Twin-linked</characteristic>
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Sense Cluster" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="1f3e-23df-cd7f-5a63">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Tomb Stalkers have the Night Vision universal special rule and may make charge moves without line of sight.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Brutal Assault" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="3d6a-eb78-089d-bfc8">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The Tomb Stalker itself is a weapon; a mass of bladed limbs and razor-sharp armour plates. It gains +2 attacks on a turn in which it assaults as opposed to the usual +1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="War Construct" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="3984-ddbf-6adf-39b4">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The Tomb Stalker is a huge mass of shifting pseudo-metal, with little vulnerability except to the massive use of force. Attacks that wound on a flat D6 score without reference to their target&apos;s Toughness only wound the Tomb Stalker on a 6 (as opposed to a 4+, 2+ etc, as would normally be the case for the attack).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Phase Tunnelling" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="8f97-cd56-2cb9-c0eb">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The Tomb Stalker is extraordinarily fast, and carries in-built phase field projectors allowing it to pass easily through inert matter, boring its way through rock and stone, and effortlessly passing through debris and rough terrain as it moves. As a result it has the Fleet, Deep Strike, Move Through Cover and Hit and Run universal special rules.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Necrons Tomb Stalker" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="0587-7ea4-030f-3ccc">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">7</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">5</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -2843,6 +2876,22 @@ Nominate a Canoptek Scarab unit within 6&quot; and roll a D6. On a roll of 2-6, 
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Necrons Tomb Stalker" hidden="false" id="ee96-7729-3117-491e">
+      <infoLinks>
+        <infoLink name="Gauss Flayer" id="92e8-1810-fd58-4c0c" hidden="false" type="profile" targetId="139b-46a3-bf85-e711"/>
+        <infoLink name="Gauss Flayer" id="e5ab-2ec8-5a05-71c5" hidden="false" type="profile" targetId="139b-46a3-bf85-e711"/>
+        <infoLink name="Fearless" id="db81-f1ab-4c09-5b10" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Sense Cluster" id="0d81-81da-d384-3a59" hidden="false" type="profile" targetId="1f3e-23df-cd7f-5a63"/>
+        <infoLink name="Brutal Assault" id="88ed-55eb-c06f-a104" hidden="false" type="profile" targetId="3d6a-eb78-089d-bfc8"/>
+        <infoLink name="War Construct" id="e8b7-2e6e-5007-a97b" hidden="false" type="profile" targetId="3984-ddbf-6adf-39b4"/>
+        <infoLink name="Phase Tunnelling" id="fe38-e8a4-4262-9814" hidden="false" type="profile" targetId="8f97-cd56-2cb9-c0eb"/>
+        <infoLink name="Monstrous Creature" id="80d2-53fd-c42b-e5ed" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Necrons Tomb Stalker" id="1f31-fa51-7f45-86dd" hidden="false" type="profile" targetId="0587-7ea4-030f-3ccc"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="205"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Imotekh The Stormlord" hidden="false" id="946b-5347-db62-2bc3" type="selectionEntry" targetId="f113-adfe-faf5-9b5d">
@@ -2992,6 +3041,12 @@ Nominate a Canoptek Scarab unit within 6&quot; and roll a D6. On a roll of 2-6, 
     <entryLink import="true" name="Custom Content" hidden="false" id="c8ab-ed18-86f8-cb44" type="selectionEntry" targetId="f04b-cec3-c568-abd9">
       <categoryLinks>
         <categoryLink targetId="525f-0a42-3f5c-5613" id="ef79-6274-8e48-fc4b" primary="true" name="Configuration"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Necrons Tomb Stalker" hidden="false" id="aabd-4add-6db3-7860" type="selectionEntry" targetId="ee96-7729-3117-491e">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="291e-24ee-30ff-22f9" primary="true" name="Heavy Support"/>
+        <categoryLink targetId="1d90-693c-460a-0301" id="87f4-ec3a-b697-d047" primary="false" name="Forgeworld"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
