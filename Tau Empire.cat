@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="f2f7-a0aa-7716-4170" name="Tau Empire" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication name="Imperial Armour Apocalypse (Second Edition, 2011)" shortName="IAA2 (2011)" hidden="false" id="iaa2-2011-tau"/>
+  </publications>
   <sharedProfiles>
     <profile name="Burst Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="f287-d7e7-db30-4fb4">
       <characteristics>
@@ -714,6 +717,560 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3, Twin-linked</characteristic>
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="lb Burst Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="77-83" id="2915-b4f9-3673-570f">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="lb Burst Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="77-83" id="8d0a-cb42-c6d6-51d5">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Missile Pod" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="78-81" id="ed35-55d2-0078-5c3a">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="lb Ion Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="78" id="6465-b5ab-5821-5d73">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">90"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Railgun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="78" id="e144-58d7-66ae-5cab">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">110"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">D</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Destroyer, Primary Weapon</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Sub Munitions" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="78" id="072d-9b8e-49fd-5eb9">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">110"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, 10" Blast, Primary Weapon</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Railgun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="80" id="9d9a-9916-5182-5d94">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">110"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Destroyer, Primary Weapon</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Submunitions" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="80" id="afca-61ad-053a-5d0d">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">110"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, 10" Blast Primary Weapon</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Burst Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="80-81" id="7dbb-b6f5-bdfd-51c2">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Ion cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="81" id="ae09-5060-0616-5d16">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">60"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Seeker Missile" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="77-81" id="0eae-bbdd-2c9a-5273">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Fusion blasters" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="82" id="5011-499e-5bd2-5614">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, melta</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Experimental Pulse Submunitions Rifle" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="84" id="3c6d-2f87-1aa3-5007">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2, 3" Blast, No Cover Save, Special Ammunition*</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="EMP Shell" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="84" id="805b-a114-7f00-59e4">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">*</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2, Gets Hot!</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">*Vehicles are hit as if struck by an EMP grenade (see Codex: Tau Empire), no effect on models without at Armour value.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hyper-Density Sabot" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="84" id="611c-be88-4092-5c80">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2, Gets Hot!</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Ionic-Cluster-Beam Shell" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="84" id="10b6-d219-428b-5a0f">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2, 5" Blast, Rending, Gets Hot!</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="BS" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" publicationId="iaa2-2011-tau" page="77-83" id="ff98-8bbc-c2a1-5a91">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">*includes the bonus from the Targeting Array</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Orca" typeId="4f6f-b40f-36fb-7ece" typeName="Super-Heavy Vehicle" hidden="false" publicationId="iaa2-2011-tau" page="77" id="6d10-9559-9838-5767">
+      <characteristics>
+        <characteristic name="BS" typeId="c083-0548-101e-0f69">4*</characteristic>
+        <characteristic name="F" typeId="ccd0-0f66-453c-e26b">12</characteristic>
+        <characteristic name="S" typeId="3f4c-12d9-90e8-3794">12</characteristic>
+        <characteristic name="R" typeId="5972-c096-9c99-ea47">10</characteristic>
+        <characteristic name="Structure Points" typeId="0a2a-2e66-c248-4b50">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Orca" typeId="9a37-e4d2-11fe-9e81" typeName="Transport" hidden="false" publicationId="iaa2-2011-tau" page="77" id="48ca-86f7-9d40-50e2">
+      <characteristics>
+        <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">The Orca has a transport capacity of 55. It may carry a maximum of six Battlesuits (which count as three spaces each). It may not carry any vehicles.</characteristic>
+        <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f">Rear transport ramp. Up to four units may exit from the Orca’s rear ramp per turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Manta" typeId="4f6f-b40f-36fb-7ece" typeName="Super-Heavy Vehicle" hidden="false" publicationId="iaa2-2011-tau" page="78" id="d330-d55d-cce1-5c51">
+      <characteristics>
+        <characteristic name="BS" typeId="c083-0548-101e-0f69">4*</characteristic>
+        <characteristic name="F" typeId="ccd0-0f66-453c-e26b">13</characteristic>
+        <characteristic name="S" typeId="3f4c-12d9-90e8-3794">12</characteristic>
+        <characteristic name="R" typeId="5972-c096-9c99-ea47">11</characteristic>
+        <characteristic name="Structure Points" typeId="0a2a-2e66-c248-4b50">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Manta" typeId="9a37-e4d2-11fe-9e81" typeName="Transport" hidden="false" publicationId="iaa2-2011-tau" page="78" id="9131-adb4-b1d1-543d">
+      <characteristics>
+        <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">The Manta has two transport bays that are treated separately as to what they may carry into battle:
+• The upper deck may transport infantry models and drones only and has a transport capacity of 55.
+• The lower deck has a transport capacity of 145, and uniquely may carry as part of this payload up to eight Crisis or Broadside battlesuits (which take up three spaces each) and up to four vehicles (which take up 30 spaces each). Vehicles being transported may carry troops themselves without the troops using up extra spaces.</characteristic>
+        <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f">Rear transport ramp and lower transport deck elevator</characteristic>
+        <characteristic name="Fire Points" typeId="aa94-ae0c-98e7-5923">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Energy Shield" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" publicationId="iaa2-2011-tau" page="78" id="7b3d-a6c5-adb1-5fae">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The Manta’s energy shield gives it a 4+ invulnerable save against any hits it receives.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="AA Fire" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" publicationId="iaa2-2011-tau" page="78" id="c2b1-1acc-0dc2-52b8">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Due to its size, when rolling to hit the Manta, the opposing player do not need 6s, but use their standard BS as normal.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Drone-controlled submunitions" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" publicationId="iaa2-2011-tau" page="78" id="3e66-c951-fd6d-551b">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">When firing submunitions the Manta does not roll the extra D6 for deviation for moving, it always rolls a D6 for deviation.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tiger Shark AX-1-0" typeId="4f6f-b40f-36fb-7ece" typeName="Super-Heavy Vehicle" hidden="false" publicationId="iaa2-2011-tau" page="80" id="dd61-1896-6ade-5a58">
+      <characteristics>
+        <characteristic name="BS" typeId="c083-0548-101e-0f69">4*</characteristic>
+        <characteristic name="F" typeId="ccd0-0f66-453c-e26b">10</characteristic>
+        <characteristic name="S" typeId="3f4c-12d9-90e8-3794">10</characteristic>
+        <characteristic name="R" typeId="5972-c096-9c99-ea47">10</characteristic>
+        <characteristic name="Structure Points" typeId="0a2a-2e66-c248-4b50">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tiger Shark" typeId="4f6f-b40f-36fb-7ece" typeName="Super-Heavy Vehicle" hidden="false" publicationId="iaa2-2011-tau" page="81" id="9ccb-4144-f114-5889">
+      <characteristics>
+        <characteristic name="BS" typeId="c083-0548-101e-0f69">4*</characteristic>
+        <characteristic name="F" typeId="ccd0-0f66-453c-e26b">10</characteristic>
+        <characteristic name="S" typeId="3f4c-12d9-90e8-3794">10</characteristic>
+        <characteristic name="R" typeId="5972-c096-9c99-ea47">10</characteristic>
+        <characteristic name="Structure Points" typeId="0a2a-2e66-c248-4b50">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Drone Rack" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" publicationId="iaa2-2011-tau" page="81" id="458e-d796-655e-5a2d">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The Tiger Shark’s Drones are deployed using the Jump Infantry rules. All the Drones may be deployed in a single turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tiger Shark" typeId="9a37-e4d2-11fe-9e81" typeName="Transport" hidden="false" publicationId="iaa2-2011-tau" page="81" id="4d59-8925-19d7-59b3">
+      <characteristics>
+        <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f">Fuselage door</characteristic>
+        <characteristic name="Fire Points" typeId="aa94-ae0c-98e7-5923">None</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Piranha TX-42" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" publicationId="iaa2-2011-tau" page="82" id="9ef5-a38a-95e2-5f84">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">4*</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">11</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">11</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="DX-6 Ramora" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" publicationId="iaa2-2011-tau" page="83" id="dfaf-91f3-d469-51ea">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">3*</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">10</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">10</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Stealth field Generator" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" publicationId="iaa2-2011-tau" page="83" id="c420-b0b3-1228-5d97">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Any enemy unit attempting to fire at a Remora must roll to check their spotting distance by rolling 2D6x3 as if firing at night. If the model is not within range, the firer may not choose a different target.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="TYPE" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" publicationId="iaa2-2011-tau" page="83" id="2772-42a7-1e16-5bdb">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">(Skimmer, Fast) Flyer/Hover Mode in games of Apocalypse</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="TAU BATTLESUIT COMMANDER R’ALAI" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" publicationId="iaa2-2011-tau" page="84" id="66ea-cda8-9d9d-5f07">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="XV-9 Armour" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" publicationId="iaa2-2011-tau" page="84" id="25c2-cc52-5f60-5c2c">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The XV-9 series is a considerably larger battlesuit armour than its more commonplace counterparts, and built to the highest specification the Tau Empire can produce on a substantial scale. XV-9 armour has the Acute Senses universal special rule, may deploy via Deep Strike, and their in-built photon casters mean that they count as having Defensive grenades.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="‘Eclipse’ Shield Generator" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" publicationId="iaa2-2011-tau" page="84" id="4a44-dd21-0b71-5af3">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A huge drain on the suit’s power capacity, the experimental ‘Eclipse’ type shield generator provides a defensive energy barrier and diffracts light much in the manner of a stealth field. It provides a 4+ invulnerable save increasing to a 3+ against attackers more than 12" distant.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Special Ammunition" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" publicationId="iaa2-2011-tau" page="84" id="4746-cec1-6821-5808">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">As well as his standard pulse submunitions rounds, R’alai is also equipped with a selection of experimental, limited issue warheads for his weapon. During a battle he may use any of these special ammunition types instead of firing his pulse submunitions rifle as normal, although their barely contained power can damage the suit itself.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Drone Controller*" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" publicationId="iaa2-2011-tau" page="84" id="62dc-45db-4c0c-598c">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">XV-9 suits may use their Vectored Retro-Thrusters to escape from close combat as per Codex: Tau Empire. If they choose to do so but also have drones, they abandon their drones which are destroyed, but during the turn this occurs the XV-9 automatically passes its Initiative test to disengage.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="FORMATION" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" publicationId="iaa2-2011-tau" page="88" id="d39d-2b35-edc0-55fc">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">1 Manta
+1 Tau Commander
++ Transported units and troops filling at least 75% of the Manta’s transport capacity (see Manta description) must begin the game on-board the Manta.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Brothers in Death" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" publicationId="iaa2-2011-tau" page="88" id="c0a3-c785-3a2d-50dc">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">United in their cause, all the units in the Mont’ka Cadre are Fearless whilst the Tau commander is alive.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Darkens the Skies" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" publicationId="iaa2-2011-tau" page="88" id="9dbd-2d9f-f614-5444">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The sight of the vast bulk of the Manta is not only heartening to the Tau forces, but can crush the morale of the staunchest enemy. All enemy models in the open within 24" of the Manta model must take a Morale check. If the unit fails they must make an immediate fall back move. Fearless models, etc, are immune to this effect.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Missile pod" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="81" id="16a7-e453-d620-5528">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Burst cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="81" id="c807-a224-01d1-5c44">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Seeker missile" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="81" id="ec15-7ec5-a05d-5843">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="lb Burst cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="83" id="f2c7-414a-993a-5734">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36"</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Seeker missile" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" publicationId="iaa2-2011-tau" page="83" id="1fc1-594c-bfc6-5b78">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">unlimited</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="UNIT" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6d74-c9d2-19fd-5611" publicationId="iaa2-2011-tau" page="77">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">1 Orca</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="TYPE" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="114d-ca11-875e-5035" publicationId="iaa2-2011-tau" page="77">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Super-heavy Flyer (Hover Mode)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="WEAPONS AND EQUIPMENT" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6acb-fa46-1cce-5075" publicationId="iaa2-2011-tau" page="77">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">• Turret Weapons pod equipped with a Twin-linked Long-Barrelled Burst Cannon and a Missile Pod
+• Blacksun Filter
+• Targeting Array
+• Disruption Pod</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="UNIT" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="1229-9e10-be8e-5678" publicationId="iaa2-2011-tau" page="78">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">1 Manta</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="TYPE" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a69f-79bb-ae31-5abd" publicationId="iaa2-2011-tau" page="78">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Super-heavy Flyer</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="WEAPONS AND EQUIPMENT" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="0c54-62c8-789c-5c01" publicationId="iaa2-2011-tau" page="78">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">• Two Heavy Railguns
+• Three Twin-linked Long Barrelled Ion Cannons
+• One Twin-linked Missile Pod
+• Sixteen Drone-controlled Long Barrelled Burst Cannons
+• Ten Seeker Missiles
+• Network Markerlight
+• Targeting Array
+• Blacksun Filter
+• Energy Shield</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="UNIT" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="40a2-829d-ad2d-5344" publicationId="iaa2-2011-tau" page="80">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">1 Tiger Shark AX-1-0</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="TYPE" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="cb3b-61e6-f524-5de0" publicationId="iaa2-2011-tau" page="80">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Super-heavy Flyer</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="WEAPONS AND EQUIPMENT" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="c914-d947-06bf-55a2" publicationId="iaa2-2011-tau" page="80">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">• One Twin-linked Heavy Rail Gun
+• One Twin-linked Missile Pod
+• Two Burst Cannons
+• Network Markerlight
+• Targeting Array</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="UNIT" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="895e-40c7-ebb5-5c9f" publicationId="iaa2-2011-tau" page="81">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">1 Tiger Shark</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="TYPE" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="ec66-035e-abf4-5a3a" publicationId="iaa2-2011-tau" page="81">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Super-heavy Flyer</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="WEAPONS AND EQUIPMENT" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="2301-2ad2-8314-5e20" publicationId="iaa2-2011-tau" page="81">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">• One Twin-linked Ion-cannon
+• One Twin-linked Missile Pod
+• Two Burst Cannons
+• Fourteen Gun Drones
+• Targeting Array</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="UNIT" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="3683-c307-405f-5265" publicationId="iaa2-2011-tau" page="82">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">1-5 Piranha TX-42</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="TYPE" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="ff6d-adcd-11e8-5a58" publicationId="iaa2-2011-tau" page="82">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Skimmer, Fast, Open-topped</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="WEAPONS AND EQUIPMENT" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="d595-e74c-dee9-5f43" publicationId="iaa2-2011-tau" page="82">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">• Twin-linked Fusion Blasters
+• Targeting Array</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="UNIT" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="1992-8431-a23a-5bdb" publicationId="iaa2-2011-tau" page="83">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">1-5 DX-6 Ramora</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="WEAPONS AND EQUIPMENT" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="0c61-aac5-566d-56bd" publicationId="iaa2-2011-tau" page="83">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">• One Twin-linked Long Barrelled Burst Cannon.
+• Two Seeker Missiles.
+• Network Markerlight.
+• Targeting Array.
+• Stealth Field Generator.
+• Blacksun filter.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="UNIT" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6cea-9ab6-7ed5-57de" publicationId="iaa2-2011-tau" page="84">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Unique</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="TYPE" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="bee0-f622-5001-5c09" publicationId="iaa2-2011-tau" page="84">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Jump Infantry (Jet Pack)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="WEAPONS AND EQUIPMENT" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="56dd-6ec7-ce34-56eb" publicationId="iaa2-2011-tau" page="84">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">• XV9-Armour
+• One Experimental Pulse Submunitions Rife
+• Vectored Retro-Thrusters
+• Blacksun Filter
+• Drone Controller and two Marker Drones with in-built Blacksun filters.
+• ‘Eclipse’ Shield Generator</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="SPECIAL RULES" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="b1c8-be1e-4c4e-582e" publicationId="iaa2-2011-tau" page="78">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Hover Mode</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="SPECIAL RULES" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="c257-0896-c0ed-54d4" publicationId="iaa2-2011-tau" page="81">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">• Drone Rack</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="SPECIAL RULES" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="1909-1228-38e7-5d9d" publicationId="iaa2-2011-tau" page="83">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">• Stealth Field Generator</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="SPECIAL RULES" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="b0be-8d7e-ad8b-5d42" publicationId="iaa2-2011-tau" page="84">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">• Stubborn
+• Special Ammunition</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Transport ramp" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="9c78-e052-072d-55a6" publicationId="iaa2-2011-tau" page="78">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Up to four units may exit from the Manta’s rear transport ramp per turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Transport Elevator" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="05a3-9eb0-7205-5ce5" publicationId="iaa2-2011-tau" page="78">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The entire lower deck can be lowered. All units on the lower transport deck can disembark in the same turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="A squadron of Piranha TX-42s is a Fast Attack choice for a Codex Tau Empire army." typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="319a-fb79-bb24-5682" publicationId="iaa2-2011-tau" page="82">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A squadron of Piranha TX-42s is a Fast Attack choice for a Codex Tau Empire army.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="A unit of Remora drone fighters are a Fast Attack choice for a Tau army." typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="95b4-8a24-d923-5c4c" publicationId="iaa2-2011-tau" page="83">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A unit of Remora drone fighters are a Fast Attack choice for a Tau army.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tau Battlesuit Commander R’alai is a HQ choice in a Codex: Tau Empire army." typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a721-7d3d-a22c-5436" publicationId="iaa2-2011-tau" page="84">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Tau Battlesuit Commander R’alai is a HQ choice in a Codex: Tau Empire army.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="OPTIONS" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="fd3b-7ca5-0a42-51c1" publicationId="iaa2-2011-tau" page="80">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">• The Tiger Shark AX-1-0 may take any of the following:
+- Blacksun filter +10 points
+- disruption pod +20 points
+• The Tiger Shark may carry six additional seeker missiles +60 points</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="OPTIONS" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="4477-68fb-fbef-5e35" publicationId="iaa2-2011-tau" page="81">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">• The Tiger Shark may take any of the following:
+- Blacksun Filter +10 points
+- Disruption Pod +20 points
+• The Tiger Shark may replace its 14 gun drones with 6 Seeker missiles for no extra points cost.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="OPTIONS" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="3465-13b1-d0a1-5313" publicationId="iaa2-2011-tau" page="82">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">• A TX-42 may replace its Twin-linked fusion blasters with:
+- Twin-linked missile pods free
+- or Twin-linked Plasma Rifles +10 points
+- or Twin-linked Rail Rifles +10 points
+• A TX-42 may take the following vehicle upgrades from Codex Tau Empire:
+- Sensor Spines +10 points
+- Blacksun Filter +5 points
+- Flechette Discharger +10 points
+- Decoy Launchers +5 points
+- Disruption Pod +5 points
+- Seeker Missiles (maximum of 2) +10 points each</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -7316,6 +7873,616 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
+    <selectionEntry type="unit" name="ORCA" hidden="false" publicationId="iaa2-2011-tau" page="77" id="770c-4df9-f7db-5a99" import="true">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="400"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Orca" targetId="6d10-9559-9838-5767" type="profile" hidden="false" id="d30f-17ca-9777-5d69"/>
+        <infoLink name="BS" targetId="ff98-8bbc-c2a1-5a91" type="profile" hidden="false" id="ddee-922b-2e16-5a09"/>
+        <infoLink name="Targeting Array" targetId="3c84-bbba-a8c2-fdc0" type="profile" hidden="false" id="81c1-af3e-767e-5804"/>
+        <infoLink name="Super-Heavy Vehicle" targetId="d740-8c38-4a3f-9f85" type="rule" hidden="false" id="da7c-7a12-63e9-5052"/>
+        <infoLink name="Blacksun Filter" targetId="f235-7880-f61b-f7d2" type="profile" hidden="false" id="0c7e-32a2-b7e7-57d5"/>
+        <infoLink name="Disruption pod" targetId="4a46-c486-93e8-22cd" type="profile" hidden="false" id="7b4a-32c6-3dc2-50d0"/>
+        <infoLink name="Orca" targetId="48ca-86f7-9d40-50e2" type="profile" hidden="false" id="5056-78ee-4529-52b1"/>
+        <infoLink name="UNIT" id="e1bc-d89d-a323-52a4" hidden="false" type="profile" targetId="6d74-c9d2-19fd-5611"/>
+        <infoLink name="TYPE" id="ce7e-a0bd-d0f3-5831" hidden="false" type="profile" targetId="114d-ca11-875e-5035"/>
+        <infoLink name="WEAPONS AND EQUIPMENT" id="61ce-2068-37ec-5863" hidden="false" type="profile" targetId="6acb-fa46-1cce-5075"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Twin-linked Long-Barrelled Burst Cannon" hidden="false" publicationId="iaa2-2011-tau" page="77" id="617b-c812-bfd1-519b" import="true" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="3d17-e3ba-97c8-5ad2"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="d618-e5d7-a197-5809"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="lb Burst Cannon" targetId="8d0a-cb42-c6d6-51d5" type="profile" hidden="false" id="490d-c144-1ed9-5bfa"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Missile Pod" hidden="false" publicationId="iaa2-2011-tau" page="77" id="792c-a1f4-7eb6-593a" import="true" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="d214-5e7d-f404-555f"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="6efb-03b1-8048-5458"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Missile Pod" targetId="ad81-e1d9-7cf6-84ea" type="profile" hidden="false" id="6df7-5f51-8fa4-5a07"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" name="MANTA" hidden="false" publicationId="iaa2-2011-tau" page="78" id="e164-e8b7-4848-540f" import="true">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2000"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Manta" targetId="d330-d55d-cce1-5c51" type="profile" hidden="false" id="fade-3084-910e-5f01"/>
+        <infoLink name="BS" targetId="ff98-8bbc-c2a1-5a91" type="profile" hidden="false" id="d9de-0a76-f73a-5046"/>
+        <infoLink name="Targeting Array" targetId="3c84-bbba-a8c2-fdc0" type="profile" hidden="false" id="654f-4789-2828-5dad"/>
+        <infoLink name="Super-Heavy Vehicle" targetId="d740-8c38-4a3f-9f85" type="rule" hidden="false" id="ebff-900e-bed6-5dbd"/>
+        <infoLink name="Networked Markerlight" targetId="ebf0-1674-f193-5618" type="profile" hidden="false" id="33e4-0f83-8822-56a9"/>
+        <infoLink name="Blacksun Filter" targetId="f235-7880-f61b-f7d2" type="profile" hidden="false" id="7373-a35b-4453-5026"/>
+        <infoLink name="Manta" targetId="9131-adb4-b1d1-543d" type="profile" hidden="false" id="8428-367a-32f2-5555"/>
+        <infoLink name="Energy Shield" targetId="7b3d-a6c5-adb1-5fae" type="profile" hidden="false" id="b218-e51c-1521-5e49"/>
+        <infoLink name="AA Fire" targetId="c2b1-1acc-0dc2-52b8" type="profile" hidden="false" id="8798-2d6f-c058-5e17"/>
+        <infoLink name="Drone-controlled submunitions" targetId="3e66-c951-fd6d-551b" type="profile" hidden="false" id="5ee3-35f4-15a2-5311"/>
+        <infoLink name="UNIT" id="bbfb-f360-ea46-5519" hidden="false" type="profile" targetId="1229-9e10-be8e-5678"/>
+        <infoLink name="TYPE" id="df69-4b98-0df9-5a40" hidden="false" type="profile" targetId="a69f-79bb-ae31-5abd"/>
+        <infoLink name="WEAPONS AND EQUIPMENT" id="f863-690c-ba99-50d5" hidden="false" type="profile" targetId="0c54-62c8-789c-5c01"/>
+        <infoLink name="SPECIAL RULES" id="2317-271e-2bc0-586f" hidden="false" type="profile" targetId="b1c8-be1e-4c4e-582e"/>
+        <infoLink name="Transport ramp" id="69e9-4f76-ae09-5021" hidden="false" type="profile" targetId="9c78-e052-072d-55a6"/>
+        <infoLink name="Transport Elevator" id="3382-a352-85a3-5aff" hidden="false" type="profile" targetId="05a3-9eb0-7205-5ce5"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Heavy Railgun" hidden="false" publicationId="iaa2-2011-tau" page="78" id="201c-ae03-5f53-5006" import="true" defaultAmount="2">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="false" includeChildSelections="false" id="73cd-8e8b-930d-57d3"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="false" includeChildSelections="false" id="d825-4a3c-52e5-57fd"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Heavy Railgun" targetId="e144-58d7-66ae-5cab" type="profile" hidden="false" id="64d8-a18a-7baf-5452"/>
+            <infoLink name="Sub Munitions" targetId="072d-9b8e-49fd-5eb9" type="profile" hidden="false" id="9c76-fe82-db22-56f3"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Twin-linked Long Barrelled Ion Cannons" hidden="false" publicationId="iaa2-2011-tau" page="78" id="d1a0-7086-9f5b-5f5f" import="true" defaultAmount="3">
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="false" includeChildSelections="false" id="c356-4406-8fe0-5ddd"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="false" includeChildSelections="false" id="8fd4-df95-d28f-5e24"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="lb Ion Cannon" targetId="6465-b5ab-5821-5d73" type="profile" hidden="false" id="8204-cccd-0b28-5a8b"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Twin-linked Missile Pod" hidden="false" publicationId="iaa2-2011-tau" page="78" id="5023-42b3-bd50-55df" import="true" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="f371-a496-df07-5df7"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="0c5f-447e-ae41-5628"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Missile Pod" targetId="ed35-55d2-0078-5c3a" type="profile" hidden="false" id="d3a2-d625-5801-54b8"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Drone-controlled Long Barrelled Burst Cannons" hidden="false" publicationId="iaa2-2011-tau" page="78" id="eb4d-ca36-d9a1-5a5e" import="true" defaultAmount="16">
+          <constraints>
+            <constraint type="min" value="16" field="selections" scope="parent" shared="false" includeChildSelections="false" id="ad39-f5d9-b6d3-5791"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="false" includeChildSelections="false" id="fbca-f4a8-d77b-55cc"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="lb Burst Cannon" targetId="2915-b4f9-3673-570f" type="profile" hidden="false" id="1b9e-759d-ea9d-578d"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Seeker Missile" hidden="false" publicationId="iaa2-2011-tau" page="78" id="0c1b-0e79-c816-57e7" import="true" defaultAmount="10">
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="false" includeChildSelections="false" id="3c85-8bd0-e178-520b"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="false" includeChildSelections="false" id="33ca-c823-5de9-55b4"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Seeker Missile" targetId="0eae-bbdd-2c9a-5273" type="profile" hidden="false" id="e961-d550-1f50-5418"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" name="TIGER SHARK AX-1-0" hidden="false" publicationId="iaa2-2011-tau" page="80" id="5d14-e973-ad03-56f1" import="true">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="660"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Tiger Shark AX-1-0" targetId="dd61-1896-6ade-5a58" type="profile" hidden="false" id="9ec4-1c61-6f4b-57f1"/>
+        <infoLink name="BS" targetId="ff98-8bbc-c2a1-5a91" type="profile" hidden="false" id="0045-712d-142b-514a"/>
+        <infoLink name="Targeting Array" targetId="3c84-bbba-a8c2-fdc0" type="profile" hidden="false" id="eb5d-4a6d-b5ce-587c"/>
+        <infoLink name="Super-Heavy Vehicle" targetId="d740-8c38-4a3f-9f85" type="rule" hidden="false" id="38b1-9ef3-a68d-5191"/>
+        <infoLink name="Networked Markerlight" targetId="ebf0-1674-f193-5618" type="profile" hidden="false" id="9442-cfc2-956d-5f46"/>
+        <infoLink name="UNIT" id="047e-b916-1d2b-52f3" hidden="false" type="profile" targetId="40a2-829d-ad2d-5344"/>
+        <infoLink name="TYPE" id="3422-57b6-ea2b-5094" hidden="false" type="profile" targetId="cb3b-61e6-f524-5de0"/>
+        <infoLink name="WEAPONS AND EQUIPMENT" id="f1a1-8212-c201-5ad4" hidden="false" type="profile" targetId="c914-d947-06bf-55a2"/>
+        <infoLink name="OPTIONS" id="3a0e-ddd2-dcfd-5d94" hidden="false" type="profile" targetId="fd3b-7ca5-0a42-51c1"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Twin-linked Heavy Rail Gun" hidden="false" publicationId="iaa2-2011-tau" page="80" id="199d-f356-dbd7-573e" import="true" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="e85c-d288-2f8d-5a28"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="89ff-078f-9f46-51f7"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Heavy Railgun" targetId="9d9a-9916-5182-5d94" type="profile" hidden="false" id="26c5-fc1e-8faa-5502"/>
+            <infoLink name="Submunitions" targetId="afca-61ad-053a-5d0d" type="profile" hidden="false" id="b7f9-81b6-bbe5-5829"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Twin-linked Missile Pod" hidden="false" publicationId="iaa2-2011-tau" page="80" id="741f-d6bf-5463-50b7" import="true" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="9c89-ad89-5e9b-590e"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="0497-f581-5f7f-5a0a"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Missile Pod" targetId="ed35-55d2-0078-5c3a" type="profile" hidden="false" id="08f4-7159-ba42-5864"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Burst Cannon" hidden="false" publicationId="iaa2-2011-tau" page="80" id="f7e7-52a7-6901-5dc1" import="true" defaultAmount="2">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="false" includeChildSelections="false" id="00b3-c652-a6cd-5ceb"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="false" includeChildSelections="false" id="0265-fd17-aadc-5056"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Burst Cannon" targetId="7dbb-b6f5-bdfd-51c2" type="profile" hidden="false" id="b4e1-8824-dd0a-55f1"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Blacksun filter" hidden="false" publicationId="iaa2-2011-tau" page="80" id="a27a-6221-5bcc-5741" import="true">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="55a2-0722-490f-5b67"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Blacksun Filter" targetId="f235-7880-f61b-f7d2" type="profile" hidden="false" id="1e61-cefd-7819-5048"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="disruption pod" hidden="false" publicationId="iaa2-2011-tau" page="80" id="166c-083b-2114-5a4a" import="true">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="68c9-ef15-eaac-5a1b"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Disruption pod" targetId="4a46-c486-93e8-22cd" type="profile" hidden="false" id="55e4-e0ba-2f35-5a1c"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="six additional seeker missiles" hidden="false" publicationId="iaa2-2011-tau" page="80" id="537b-539b-2e76-597b" import="true">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="06fd-1dea-0c1a-5344"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" name="Seeker Missile" hidden="false" publicationId="iaa2-2011-tau" page="80" id="ecd7-1ae8-cd0e-5637" import="true" defaultAmount="6">
+              <constraints>
+                <constraint type="min" value="6" field="selections" scope="parent" shared="false" includeChildSelections="false" id="8af1-ac09-e20b-5874"/>
+                <constraint type="max" value="6" field="selections" scope="parent" shared="false" includeChildSelections="false" id="23ee-3cec-3209-5247"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Seeker Missile" targetId="0eae-bbdd-2c9a-5273" type="profile" hidden="false" id="278d-4d37-d7ef-59f2"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" name="TIGER SHARK" hidden="false" publicationId="iaa2-2011-tau" page="81" id="58e7-f931-a17c-59ab" import="true">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="520"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Tiger Shark" targetId="9ccb-4144-f114-5889" type="profile" hidden="false" id="6ac9-9bec-bdfb-57cd"/>
+        <infoLink name="BS" targetId="ff98-8bbc-c2a1-5a91" type="profile" hidden="false" id="fdc4-69dc-8935-58e2"/>
+        <infoLink name="Targeting Array" targetId="3c84-bbba-a8c2-fdc0" type="profile" hidden="false" id="83c6-1d68-6012-52e0"/>
+        <infoLink name="Super-Heavy Vehicle" targetId="d740-8c38-4a3f-9f85" type="rule" hidden="false" id="36d7-c241-50fc-5d24"/>
+        <infoLink name="Tiger Shark" targetId="4d59-8925-19d7-59b3" type="profile" hidden="false" id="486c-5f9b-a213-5967"/>
+        <infoLink name="UNIT" id="0b5a-96c1-38df-5db0" hidden="false" type="profile" targetId="895e-40c7-ebb5-5c9f"/>
+        <infoLink name="TYPE" id="75db-3128-d4b3-5cae" hidden="false" type="profile" targetId="ec66-035e-abf4-5a3a"/>
+        <infoLink name="WEAPONS AND EQUIPMENT" id="fdb5-c8af-8890-5b97" hidden="false" type="profile" targetId="2301-2ad2-8314-5e20"/>
+        <infoLink name="SPECIAL RULES" id="f298-d4ac-b234-5bfb" hidden="false" type="profile" targetId="c257-0896-c0ed-54d4"/>
+        <infoLink name="OPTIONS" id="2379-8d6c-8007-508c" hidden="false" type="profile" targetId="4477-68fb-fbef-5e35"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Twin-linked Ion-cannon" hidden="false" publicationId="iaa2-2011-tau" page="81" id="340a-a0de-ef4b-5e24" import="true" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="a47d-d30d-a2ce-5755"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="bdb6-15ae-608d-5c16"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ion cannon" targetId="ae09-5060-0616-5d16" type="profile" hidden="false" id="27bf-c15b-e048-5e64"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Twin-linked Missile Pod" hidden="false" publicationId="iaa2-2011-tau" page="81" id="8218-3050-1cdb-5081" import="true" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="1579-076e-ec5e-51a1"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="bad9-f223-5dc6-56c5"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Missile pod" targetId="16a7-e453-d620-5528" type="profile" hidden="false" id="a0bf-0729-7d4c-5062"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Burst cannon" hidden="false" publicationId="iaa2-2011-tau" page="81" id="1a96-7a10-c4f9-5d7e" import="true" defaultAmount="2">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="false" includeChildSelections="false" id="7f9f-3ec5-4a57-59dc"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="false" includeChildSelections="false" id="c1cc-4b2f-7e45-539d"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Burst cannon" targetId="c807-a224-01d1-5c44" type="profile" hidden="false" id="e856-e031-8ba0-5b22"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Blacksun Filter" hidden="false" publicationId="iaa2-2011-tau" page="81" id="47fe-a5ea-6b9b-5cef" import="true">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="d5de-bf80-faca-5417"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Blacksun Filter" targetId="f235-7880-f61b-f7d2" type="profile" hidden="false" id="37e8-9e02-91e3-54e9"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" name="Disruption Pod" hidden="false" publicationId="iaa2-2011-tau" page="81" id="0cca-6c64-485b-50b1" import="true">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="602d-9abf-6f97-5417"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Disruption pod" targetId="4a46-c486-93e8-22cd" type="profile" hidden="false" id="ffc1-11ce-690c-5e48"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="OPTIONS" hidden="false" id="5202-ab26-c68a-59c5" defaultSelectionEntryId="224a-c7d1-fc14-5323">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="false" includeChildSelections="false" id="9f3b-f59b-72c0-540b"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="false" includeChildSelections="false" id="3257-aa23-aa74-5ae3"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" name="Fourteen Gun Drones" hidden="false" publicationId="iaa2-2011-tau" page="81" id="224a-c7d1-fc14-5323" import="true">
+              <selectionEntries>
+                <selectionEntry type="model" name="Gun Drone" hidden="false" publicationId="iaa2-2011-tau" page="81" id="3104-eea1-a045-5564" import="true" defaultAmount="14">
+                  <constraints>
+                    <constraint type="min" value="14" field="selections" scope="parent" shared="false" includeChildSelections="false" id="9ab9-eff2-25f3-51f8"/>
+                    <constraint type="max" value="14" field="selections" scope="parent" shared="false" includeChildSelections="false" id="0692-07d8-7f8c-5d0e"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Gun Drone" targetId="3969-d555-f692-a0d0" type="profile" hidden="false" id="3df1-8f10-552a-5977"/>
+                    <infoLink name="Twin-linked Pulse Carbine" targetId="38bc-4e53-be82-6233" type="profile" hidden="false" id="a9d6-c9f1-6e50-59ec"/>
+                    <infoLink name="Jump Infantry" targetId="4158-c955-9c2f-46f7" type="rule" hidden="false" id="09d6-a34f-548b-55c2"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <infoLinks>
+                <infoLink name="Drone Rack" targetId="458e-d796-655e-5a2d" type="profile" hidden="false" id="6519-152a-95bc-568f"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" name="6 Seeker missiles" hidden="false" publicationId="iaa2-2011-tau" page="81" id="a122-d435-10ad-5f30" import="true">
+              <selectionEntries>
+                <selectionEntry type="upgrade" name="Seeker missile" hidden="false" publicationId="iaa2-2011-tau" page="81" id="29a1-de05-ec04-550d" import="true" defaultAmount="6">
+                  <constraints>
+                    <constraint type="min" value="6" field="selections" scope="parent" shared="false" includeChildSelections="false" id="62c0-f501-de06-5cef"/>
+                    <constraint type="max" value="6" field="selections" scope="parent" shared="false" includeChildSelections="false" id="3262-7f1e-cb56-5ffb"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Seeker missile" targetId="ec15-7ec5-a05d-5843" type="profile" hidden="false" id="b970-0e5f-b117-59b4"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" name="PIRANHA TX-42" hidden="false" publicationId="iaa2-2011-tau" page="82" id="9987-a8b0-b753-52de" import="true">
+      <infoLinks>
+        <infoLink name="Skimmer" targetId="5768-8357-f0e3-1484" type="rule" hidden="false" id="0600-6119-bf32-5a2e"/>
+        <infoLink name="Fast" targetId="4d59-8511-a8e5-1f62" type="rule" hidden="false" id="20ff-e63e-0bce-57b8"/>
+        <infoLink name="Open-topped" targetId="21d9-2669-1dba-9fb2" type="rule" hidden="false" id="dfcb-5d5d-1616-5f4b"/>
+        <infoLink name="UNIT" id="af96-5674-5476-5112" hidden="false" type="profile" targetId="3683-c307-405f-5265"/>
+        <infoLink name="TYPE" id="fd38-1c86-efb0-5acd" hidden="false" type="profile" targetId="ff6d-adcd-11e8-5a58"/>
+        <infoLink name="WEAPONS AND EQUIPMENT" id="706a-55ce-63ab-545a" hidden="false" type="profile" targetId="d595-e74c-dee9-5f43"/>
+        <infoLink name="A squadron of Piranha TX-42s is a Fast Attack choice for a Codex Tau Empire army." id="3cae-e747-bb42-5166" hidden="false" type="profile" targetId="319a-fb79-bb24-5682"/>
+        <infoLink name="OPTIONS" id="4d63-4124-5e67-5dc3" hidden="false" type="profile" targetId="3465-13b1-d0a1-5313"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="model" name="Piranha TX-42" hidden="false" publicationId="iaa2-2011-tau" page="82" id="32f6-c99a-7690-5d12" import="true" defaultAmount="1">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="70"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Piranha TX-42" targetId="9ef5-a38a-95e2-5f84" type="profile" hidden="false" id="0f6f-b8ea-d09c-564f"/>
+            <infoLink name="Targeting Array" targetId="3c84-bbba-a8c2-fdc0" type="profile" hidden="false" id="d8b8-2088-2ed7-56c9"/>
+            <infoLink name="BS" targetId="ff98-8bbc-c2a1-5a91" type="profile" hidden="false" id="e2ab-c427-7bc0-5553"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="2506-0843-0ba1-56d6"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="false" includeChildSelections="false" id="7a17-648a-7166-5486"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="OPTIONS" hidden="false" id="3b13-9a02-0d9a-545b" defaultSelectionEntryId="1918-0dd6-45c0-5773">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="false" includeChildSelections="false" id="b11b-4c4e-81ce-5861"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="false" includeChildSelections="false" id="e10d-e33a-cc8d-5a9e"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" name="Twin-linked Fusion Blasters" hidden="false" publicationId="iaa2-2011-tau" page="82" id="1918-0dd6-45c0-5773" import="true">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="3658-2c52-cf06-5663"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Fusion blasters" targetId="5011-499e-5bd2-5614" type="profile" hidden="false" id="ff3e-3188-b02b-5319"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" name="Twin-linked missile pods" hidden="false" publicationId="iaa2-2011-tau" page="82" id="0d63-937e-0fcd-5ca6" import="true">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="0494-aef3-4b69-5101"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Missile Pod" targetId="ed35-55d2-0078-5c3a" type="profile" hidden="false" id="c0fe-3e69-f1be-5b3f"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" name="Twin-linked Plasma Rifles" hidden="false" publicationId="iaa2-2011-tau" page="82" id="4f41-390a-8166-526f" import="true">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="9e45-849c-6c43-5cea"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Plasma Rifle" targetId="92fe-29f5-2729-f7d0" type="profile" hidden="false" id="c317-ea32-1817-564f"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" name="Twin-linked Rail Rifles" hidden="false" publicationId="iaa2-2011-tau" page="82" id="0e85-9c3d-ed17-5aef" import="true">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="4aae-96b5-f59e-5cf8"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Rail Rifle" targetId="738e-571c-c7fa-b9c4" type="profile" hidden="false" id="9512-4612-7bda-5b56"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <selectionEntries>
+            <selectionEntry type="upgrade" name="Sensor Spines" hidden="false" publicationId="iaa2-2011-tau" page="82" id="ce15-d04a-f8f1-59a3" import="true">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="d354-a725-8211-5e18"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Sensor Spines" targetId="b56a-b649-de8c-8eac" type="profile" hidden="false" id="e8ee-3be3-afc7-58fe"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" name="Blacksun Filter" hidden="false" publicationId="iaa2-2011-tau" page="82" id="c4f0-a7fd-bb42-5d77" import="true">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="4cc3-6d37-410f-582b"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Blacksun Filter" targetId="f235-7880-f61b-f7d2" type="profile" hidden="false" id="c1bf-6dba-a686-5b77"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" name="Flechette Discharger" hidden="false" publicationId="iaa2-2011-tau" page="82" id="6f42-2dbe-ed6e-5e99" import="true">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="2226-967f-272b-5c21"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Flechette Discharger" targetId="5980-b148-b086-932e" type="profile" hidden="false" id="96da-9b97-c462-58c5"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" name="Decoy Launchers" hidden="false" publicationId="iaa2-2011-tau" page="82" id="348f-0292-5372-55f2" import="true">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="2411-267f-cb35-55a3"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Decoy launchers" targetId="b563-0d07-491d-9e02" type="profile" hidden="false" id="808f-b7e6-a1ba-53f2"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" name="Disruption Pod" hidden="false" publicationId="iaa2-2011-tau" page="82" id="3e6a-67aa-c9bb-572b" import="true">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="1d83-d656-3252-5636"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Disruption pod" targetId="4a46-c486-93e8-22cd" type="profile" hidden="false" id="d8b2-2a24-f309-57d4"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" name="Seeker Missiles (maximum of 2)" hidden="false" publicationId="iaa2-2011-tau" page="82" id="bd0d-199e-3e47-5fdd" import="true">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="false" includeChildSelections="false" id="b4b8-9b88-9c28-5401"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Seeker Missile" targetId="3f3a-1c2a-5f36-7a6f" type="profile" hidden="false" id="42f9-e03e-39a9-54e4"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" name="DX-6 ‘REMORA’ DRONE FIGHTER" hidden="false" publicationId="iaa2-2011-tau" page="83" id="3ede-e5ed-bb14-5186" import="true">
+      <infoLinks>
+        <infoLink name="TYPE" targetId="2772-42a7-1e16-5bdb" type="profile" hidden="false" id="c208-1438-5a47-587e"/>
+        <infoLink name="Skimmer" targetId="5768-8357-f0e3-1484" type="rule" hidden="false" id="6956-a8e8-2eaf-55ee"/>
+        <infoLink name="Fast" targetId="4d59-8511-a8e5-1f62" type="rule" hidden="false" id="f06b-25de-318e-54ca"/>
+        <infoLink name="UNIT" id="ab18-4e23-43d4-5143" hidden="false" type="profile" targetId="1992-8431-a23a-5bdb"/>
+        <infoLink name="WEAPONS AND EQUIPMENT" id="ec36-32e5-638a-5f16" hidden="false" type="profile" targetId="0c61-aac5-566d-56bd"/>
+        <infoLink name="SPECIAL RULES" id="9e0f-7915-c4bb-59fe" hidden="false" type="profile" targetId="1909-1228-38e7-5d9d"/>
+        <infoLink name="A unit of Remora drone fighters are a Fast Attack choice for a Tau army." id="ed61-3c93-ff67-5d0e" hidden="false" type="profile" targetId="95b4-8a24-d923-5c4c"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="model" name="DX-6 Ramora" hidden="false" publicationId="iaa2-2011-tau" page="83" id="e2ce-619f-0c2c-515d" import="true" defaultAmount="1">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="110"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="DX-6 Ramora" targetId="dfaf-91f3-d469-51ea" type="profile" hidden="false" id="9313-3f35-45dc-59e4"/>
+            <infoLink name="Networked Markerlight" targetId="ebf0-1674-f193-5618" type="profile" hidden="false" id="29ff-ba7f-2fb3-5e7c"/>
+            <infoLink name="Targeting Array" targetId="3c84-bbba-a8c2-fdc0" type="profile" hidden="false" id="c580-0e76-2f86-54ec"/>
+            <infoLink name="Blacksun Filter" targetId="f235-7880-f61b-f7d2" type="profile" hidden="false" id="6678-a7c0-aad6-5d2b"/>
+            <infoLink name="BS" targetId="ff98-8bbc-c2a1-5a91" type="profile" hidden="false" id="87c1-9940-0839-5b3c"/>
+            <infoLink name="Stealth field Generator" targetId="c420-b0b3-1228-5d97" type="profile" hidden="false" id="5f8a-9c84-194c-5fd7"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="35be-a873-c2ed-5bd3"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="false" includeChildSelections="false" id="59c6-ad80-c637-59a4"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" name="Twin-linked Long Barrelled Burst Cannon." hidden="false" publicationId="iaa2-2011-tau" page="83" id="9183-3c71-aff7-5ae7" import="true" defaultAmount="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="1208-b8e0-d65c-57ab"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="25b7-1f5e-c870-5b94"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="lb Burst cannon" targetId="f2c7-414a-993a-5734" type="profile" hidden="false" id="1258-266b-c043-53a5"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" name="Seeker missile" hidden="false" publicationId="iaa2-2011-tau" page="83" id="a651-0e41-69ae-5a8d" import="true" defaultAmount="2">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="false" includeChildSelections="false" id="fc8c-a61c-1617-5ec2"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="false" includeChildSelections="false" id="3a70-d6fc-31b3-5048"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Seeker missile" targetId="1fc1-594c-bfc6-5b78" type="profile" hidden="false" id="c46e-512b-f2d0-5220"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" name="TAU BATTLESUIT COMMANDER R’ALAI" hidden="false" publicationId="iaa2-2011-tau" page="84" id="e6c6-f5cc-a6a9-5346" import="true">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="190"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" includeChildSelections="true" id="ad88-49bb-07dd-5d62" includeChildForces="true"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="TAU BATTLESUIT COMMANDER R’ALAI" targetId="66ea-cda8-9d9d-5f07" type="profile" hidden="false" id="f55b-a1ce-b563-5a0a"/>
+        <infoLink name="Blacksun Filter" targetId="f235-7880-f61b-f7d2" type="profile" hidden="false" id="dcc3-21f6-125b-515e"/>
+        <infoLink name="Jet Pack" targetId="738d-e5f9-d3a3-c049" type="profile" hidden="false" id="a8af-0e65-3ba3-5f0c"/>
+        <infoLink name="Stubborn" targetId="5493-e844-f447-39ae" type="profile" hidden="false" id="4b33-2842-67fa-5d60"/>
+        <infoLink name="Jump Infantry" targetId="4158-c955-9c2f-46f7" type="rule" hidden="false" id="c097-f460-afdb-52df"/>
+        <infoLink name="XV-9 Armour" targetId="25c2-cc52-5f60-5c2c" type="profile" hidden="false" id="6ac8-5d98-fcda-53f6"/>
+        <infoLink name="‘Eclipse’ Shield Generator" targetId="4a44-dd21-0b71-5af3" type="profile" hidden="false" id="3ab7-0946-09f5-5d6f"/>
+        <infoLink name="Special Ammunition" targetId="4746-cec1-6821-5808" type="profile" hidden="false" id="c8f9-23eb-cae3-5eee"/>
+        <infoLink name="Drone Controller*" targetId="62dc-45db-4c0c-598c" type="profile" hidden="false" id="79e3-231b-b52e-5952"/>
+        <infoLink name="UNIT" id="85a6-fdf8-e6e8-59fb" hidden="false" type="profile" targetId="6cea-9ab6-7ed5-57de"/>
+        <infoLink name="TYPE" id="e765-c1de-0f27-57ad" hidden="false" type="profile" targetId="bee0-f622-5001-5c09"/>
+        <infoLink name="WEAPONS AND EQUIPMENT" id="2c15-7c68-3d2a-5338" hidden="false" type="profile" targetId="56dd-6ec7-ce34-56eb"/>
+        <infoLink name="SPECIAL RULES" id="1706-fc6d-5ea9-560e" hidden="false" type="profile" targetId="b0be-8d7e-ad8b-5d42"/>
+        <infoLink name="Tau Battlesuit Commander R’alai is a HQ choice in a Codex: Tau Empire army." id="889c-73dd-25a3-5dc0" hidden="false" type="profile" targetId="a721-7d3d-a22c-5436"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" name="Experimental Pulse Submunitions Rife" hidden="false" publicationId="iaa2-2011-tau" page="84" id="49f2-08d6-82c7-5ef7" import="true" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="fbbc-00f5-1160-59af"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="0e7e-97e9-c499-5d3f"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Experimental Pulse Submunitions Rifle" targetId="3c6d-2f87-1aa3-5007" type="profile" hidden="false" id="6e70-b170-3f1d-5b6e"/>
+            <infoLink name="EMP Shell" targetId="805b-a114-7f00-59e4" type="profile" hidden="false" id="8f26-97aa-15e4-5e4b"/>
+            <infoLink name="Hyper-Density Sabot" targetId="611c-be88-4092-5c80" type="profile" hidden="false" id="e5a9-3fe0-f27f-5b3a"/>
+            <infoLink name="Ionic-Cluster-Beam Shell" targetId="10b6-d219-428b-5a0f" type="profile" hidden="false" id="f1d9-2123-78af-5749"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" name="Marker Drones" hidden="false" publicationId="iaa2-2011-tau" page="84" id="8654-30b7-28cc-5dec" import="true" defaultAmount="2">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="false" includeChildSelections="false" id="284d-0150-4065-57a1"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="false" includeChildSelections="false" id="4af5-4fc5-6c59-5942"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Marker Drone" targetId="06eb-39a9-634c-c821" type="profile" hidden="false" id="5757-b5b4-e2e5-5b28"/>
+            <infoLink name="Networked Markerlight" targetId="ebf0-1674-f193-5618" type="profile" hidden="false" id="807e-aa33-b45f-5ebe"/>
+            <infoLink name="Blacksun Filter" targetId="f235-7880-f61b-f7d2" type="profile" hidden="false" id="059d-1815-9ab6-51fd"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" name="MANTA DEATH BLOW CADRE" hidden="false" publicationId="iaa2-2011-tau" page="88" id="5940-6d3e-b5aa-5481" import="true">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="100"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="MANTA" targetId="e164-e8b7-4848-540f" type="selectionEntry" hidden="false" id="0a51-2dd5-1583-500d" import="true" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="4f7f-1df9-1fc1-5036"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="7437-57af-4532-525d"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Tau Commander" hidden="false" id="7f8a-92ed-7cc8-5c8e">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="false" includeChildSelections="false" id="24c6-3af8-d61a-5702"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="false" includeChildSelections="false" id="d762-cf6e-ed68-5d23"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Commander (Shas'el)" targetId="a7b8-c9b0-a065-3d02" type="selectionEntry" hidden="false" id="b26f-96a0-a057-5152" import="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="6637-ce89-9d31-55d4"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Commander (Shas'o)" targetId="8541-ee65-0a50-dcfc" type="selectionEntry" hidden="false" id="2413-7f86-a6af-58b2" import="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" id="6638-98c9-95cd-5c15"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Transported units and troops" hidden="false" id="3ba4-8955-a8ad-5837">
+          <entryLinks>
+            <entryLink name="Ethereal" targetId="1985-97b1-f055-ed55" type="selectionEntry" hidden="false" id="4b56-b09b-c9db-532a" import="true"/>
+            <entryLink name="Fire Warrior Team" targetId="ef64-74d7-7582-a180" type="selectionEntry" hidden="false" id="062a-e578-afa5-59d5" import="true"/>
+            <entryLink name="Devilfish Troop Carrier" targetId="3978-d4f8-0bb2-1213" type="selectionEntry" hidden="false" id="943a-5cce-1fd0-5c93" import="true"/>
+            <entryLink name="XV8 Crisis Battlesuit Team" targetId="f7c6-2d68-72fb-5064" type="selectionEntry" hidden="false" id="3728-231f-4799-50e2" import="true"/>
+            <entryLink name="Stealth Team" targetId="b375-99c1-f932-029a" type="selectionEntry" hidden="false" id="3943-8745-ec8a-5988" import="true"/>
+            <entryLink name="Kroot Carnivore Squad" targetId="d2bd-5811-8c85-6079" type="selectionEntry" hidden="false" id="3708-b81f-297f-5d06" import="true"/>
+            <entryLink name="Gun Drone Squadron" targetId="21a4-c405-58c9-86d3" type="selectionEntry" hidden="false" id="1dd7-1f93-c00d-5b8e" import="true"/>
+            <entryLink name="Pathfinder Team" targetId="767c-47d6-8c42-e4a9" type="selectionEntry" hidden="false" id="2159-8e35-94d4-5db9" import="true"/>
+            <entryLink name="Piranha Light Skimmer Team" targetId="99bf-3b42-5ecc-37d1" type="selectionEntry" hidden="false" id="f86d-70f3-476a-5cbc" import="true"/>
+            <entryLink name="Vespid Stingwings" targetId="d42f-d1f2-6dee-1082" type="selectionEntry" hidden="false" id="8e2a-6903-90cd-5ef5" import="true"/>
+            <entryLink name="XV88 Broadside Battlesuit Team" targetId="b1f3-6fd3-a351-cc37" type="selectionEntry" hidden="false" id="29c0-04fb-ab41-5ccd" import="true"/>
+            <entryLink name="Sniper Drone Teams" targetId="0395-9a14-610f-3ba1" type="selectionEntry" hidden="false" id="f40b-060f-4632-5da7" import="true"/>
+            <entryLink name="Hammerhead Gunship" targetId="21e1-8599-9e5e-5189" type="selectionEntry" hidden="false" id="1c92-98af-c552-5eaf" import="true"/>
+            <entryLink name="Skyray Missile Gunship" targetId="be2c-d2c2-7510-55d4" type="selectionEntry" hidden="false" id="79d1-ea9a-6c7e-52ec" import="true"/>
+            <entryLink name="PIRANHA TX-42" targetId="9987-a8b0-b753-52de" type="selectionEntry" hidden="false" id="1146-279d-ef19-5fff" import="true"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="FORMATION" targetId="d39d-2b35-edc0-55fc" type="profile" hidden="false" id="a0d0-dba0-9c6e-5a5e"/>
+        <infoLink name="Brothers in Death" targetId="c0a3-c785-3a2d-50dc" type="profile" hidden="false" id="da77-d9fe-7785-5a14"/>
+        <infoLink name="Darkens the Skies" targetId="9dbd-2d9f-f614-5444" type="profile" hidden="false" id="1c9a-e4d8-6829-5e9a"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Commander (Shas&apos;el)" hidden="false" id="f64d-c3bd-0061-cfa2" type="selectionEntry" targetId="a7b8-c9b0-a065-3d02">
@@ -7421,6 +8588,93 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
       <categoryLinks>
         <categoryLink targetId="525f-0a42-3f5c-5613" id="1c01-28cd-0b12-f888" primary="true" name="Configuration"/>
       </categoryLinks>
+    </entryLink>
+    <entryLink name="ORCA" targetId="770c-4df9-f7db-5a99" type="selectionEntry" hidden="false" id="e16e-d5f5-ffe6-5201" import="true">
+      <categoryLinks>
+        <categoryLink name="Heavy Support" targetId="9260-7d57-be5c-bd52" primary="true" id="a7b5-0130-de11-55fc"/>
+        <categoryLink name="Forgeworld" targetId="1d90-693c-460a-0301" primary="false" id="42d7-2885-fb26-556a"/>
+        <categoryLink name="Super-Heavy" targetId="5968-f35e-18fd-612b" primary="false" id="9569-db98-b64f-51c7"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" shared="true" childId="7a0f-60e9-0b8f-41f9" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="MANTA" targetId="e164-e8b7-4848-540f" type="selectionEntry" hidden="false" id="8ecc-cd5a-088f-5a27" import="true">
+      <categoryLinks>
+        <categoryLink name="Heavy Support" targetId="9260-7d57-be5c-bd52" primary="true" id="a3d5-c858-58f5-5c88"/>
+        <categoryLink name="Forgeworld" targetId="1d90-693c-460a-0301" primary="false" id="c94b-5288-b915-5893"/>
+        <categoryLink name="Super-Heavy" targetId="5968-f35e-18fd-612b" primary="false" id="147e-cc72-fea6-5b81"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" shared="true" childId="7a0f-60e9-0b8f-41f9" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="TIGER SHARK AX-1-0" targetId="5d14-e973-ad03-56f1" type="selectionEntry" hidden="false" id="11f7-991c-7bc8-5888" import="true">
+      <categoryLinks>
+        <categoryLink name="Heavy Support" targetId="9260-7d57-be5c-bd52" primary="true" id="6859-4631-1158-5f56"/>
+        <categoryLink name="Forgeworld" targetId="1d90-693c-460a-0301" primary="false" id="c07d-aa70-b4a9-5814"/>
+        <categoryLink name="Super-Heavy" targetId="5968-f35e-18fd-612b" primary="false" id="752a-a6ea-71da-5172"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" shared="true" childId="7a0f-60e9-0b8f-41f9" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="TIGER SHARK" targetId="58e7-f931-a17c-59ab" type="selectionEntry" hidden="false" id="a96b-374c-de60-51d9" import="true">
+      <categoryLinks>
+        <categoryLink name="Heavy Support" targetId="9260-7d57-be5c-bd52" primary="true" id="9e69-0b93-ecb5-5ca0"/>
+        <categoryLink name="Forgeworld" targetId="1d90-693c-460a-0301" primary="false" id="b4cf-addf-ed22-5b93"/>
+        <categoryLink name="Super-Heavy" targetId="5968-f35e-18fd-612b" primary="false" id="bee3-22ad-d57b-52f5"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" shared="true" childId="7a0f-60e9-0b8f-41f9" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="PIRANHA TX-42" targetId="9987-a8b0-b753-52de" type="selectionEntry" hidden="false" id="807d-990c-bf18-5e38" import="true">
+      <categoryLinks>
+        <categoryLink name="Fast Attack" targetId="74fe-37c3-fbbf-849e" primary="true" id="a9b4-f0fc-86f2-5410"/>
+        <categoryLink name="Forgeworld" targetId="1d90-693c-460a-0301" primary="false" id="5841-e14f-d209-5dc6"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="DX-6 ‘REMORA’ DRONE FIGHTER" targetId="3ede-e5ed-bb14-5186" type="selectionEntry" hidden="false" id="261e-e535-450b-5d77" import="true">
+      <categoryLinks>
+        <categoryLink name="Fast Attack" targetId="74fe-37c3-fbbf-849e" primary="true" id="da9e-e4d7-bb3c-5971"/>
+        <categoryLink name="Forgeworld" targetId="1d90-693c-460a-0301" primary="false" id="9431-d6e1-b55a-5495"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="TAU BATTLESUIT COMMANDER R’ALAI" targetId="e6c6-f5cc-a6a9-5346" type="selectionEntry" hidden="false" id="18dc-33bf-69c1-5659" import="true">
+      <categoryLinks>
+        <categoryLink name="HQ" targetId="ac8d-efba-1884-d3ad" primary="true" id="436a-44dc-8873-5770"/>
+        <categoryLink name="Forgeworld" targetId="1d90-693c-460a-0301" primary="false" id="3615-0b68-a653-5b3c"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="MANTA DEATH BLOW CADRE" targetId="5940-6d3e-b5aa-5481" type="selectionEntry" hidden="false" id="f08f-796e-b4df-5d6f" import="true">
+      <categoryLinks>
+        <categoryLink name="Configuration" targetId="525f-0a42-3f5c-5613" primary="true" id="7440-17f2-b8a4-5843"/>
+        <categoryLink name="Forgeworld" targetId="1d90-693c-460a-0301" primary="false" id="8450-5f37-488f-566f"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" shared="true" childId="7a0f-60e9-0b8f-41f9" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
   </entryLinks>
 </catalogue>

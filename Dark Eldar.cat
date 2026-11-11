@@ -25,7 +25,7 @@
         <constraint id="49db-ebf5-2749-4206" field="selections" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
     </entryLink>
-    <entryLink name="Lelith Hasperax" id="c79f-ff10-adc6-a362" hidden="false" import="true" targetId="851f-8334-aa53-7a21" type="selectionEntry">
+    <entryLink name="Lelith Hesperax" id="c79f-ff10-adc6-a362" hidden="false" import="true" targetId="851f-8334-aa53-7a21" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="HQ" id="a544-9609-ca7c-01a2" primary="true" targetId="ac8d-efba-1884-d3ad"/>
       </categoryLinks>
@@ -952,7 +952,7 @@
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">*</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Blast, One Shot</characteristic>
-        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Models hit by an implosion missile must take a characteristic test based on their Wounds value (i.e the one on their profile, not their current Wounds). If they fail the test, they implode spectactularly and suffer instant death regardless of Toughness. Cover saves and Invulnerable saves may be taken as normal. Vehicles are unaffected by implosion missiles.</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Models hit by an implosion missile must take a characteristic test based on their Wounds value (i.e. the one on their profile, not their current Wounds). If they fail the test, they implode spectacularly and suffer instant death regardless of Toughness. Cover saves and invulnerable saves may be taken as normal. Vehicles are unaffected by implosion missiles.</characteristic>
       </characteristics>
     </profile>
     <profile name="Monoscythe Missile" id="dfe0-cde3-7ae7-91c2" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
@@ -1123,7 +1123,7 @@
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">X</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Sniper</characteristic>
-        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">A model that suffers an unsaved wound from a hexrifle must take a characteristic test based on their Wounds value (I/e. the one on their profile, not their current Wounds). If they fail the test, they are removed from play, with no saves of any kind. Vehicles cannot be affected by hexrifles</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">A model that suffers an unsaved wound from a hexrifle must take a characteristic test based on their Wounds value (i.e. the one on their profile, not their current Wounds). If they fail the test, they are removed from play, with no saves of any kind. Vehicles cannot be affected by hexrifles.</characteristic>
       </characteristics>
     </profile>
     <profile name="Liquifier Gun" id="0086-0354-d6e1-8d3a" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
@@ -1262,7 +1262,7 @@
     </profile>
     <profile name="Reaver Jetbike" id="a153-039f-1a51-ace7" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
       <characteristics>
-        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A Reaver Jetbike adds 1 to the rider&apos;s Toughness and increases his armour save to 5+, In addition, Reaver Jetbikes have an inbuilt splinter rifle. Lastly Reaver jetbikes are so incredibly fast that they may move up to 36&quot; when moving with Turbo Boosters.</characteristic>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Reaver jetbike adds 1 to the Reaver’s Toughness and increases his armour save to 5+ (bonuses included in the profile above). In addition, Reaver Jetbikes have an inbuilt splinter rifle. Lastly, Reaver jetbikes are so incredibly fast that they may move up to 36&quot; when moving with Turbo Boosters.</characteristic>
       </characteristics>
     </profile>
     <profile name="Skyboard" id="c12c-bc69-eca8-0226" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
@@ -1277,7 +1277,7 @@
     </profile>
     <profile name="Stunclaw" id="2241-9e06-7d58-4a13" hidden="false" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons">
       <characteristics>
-        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A stunclaw is a close combat weapon that confers +1 Strength. When performing a Hit and Run, a Helliarch may nominate an Independent Character in the same combat and roll a D6. On the roll of a 2+, the Helliarch may &apos;snatch&apos; the nominated model - it is moved with the Hellions, borne aloft by a mob of cackling maniacs! When their Hit and Run move is finished, leave as many Hellions in base contact with the &apos;snatched&apos; modes as possible - this new combat will be resolved next turn.</characteristic>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A stunclaw is a close combat weapon that confers +1 Strength. It can also be used as a grapple with which to snare and entrap an enemy leader. When performing a Hit and Run, an Helliarch may nominate an Independent Character in the same combat and roll a D6. On the roll of a 2+, the Helliarch may ‘snatch’ the nominated model – it is moved with the Hellions, borne aloft by a mob of cackling maniacs! When their Hit and Run move is finished, leave as many Hellions in base contact with the ‘snatched’ model as possible – this new combat will be resolved next turn.</characteristic>
       </characteristics>
     </profile>
     <profile name="Venom Blade" id="658c-abc4-330b-ab99" hidden="false" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons">
@@ -1307,7 +1307,7 @@
     </profile>
     <profile name="Scissorhand" id="4f50-739f-8813-5efa" hidden="false" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons">
       <characteristics>
-        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Scissorhand is a Poisoned Weapon (3+), that grants +1 Attack. Not that this can be combined with an additional close combat weapon for a total of +2 attacks.</characteristic>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">The scissorhand looks a little like a pair of surgical shears bearing expensive toxins so that its wielder can better incapacitate those whose limbs it amputates. It is a poisoned weapon (3+), that grants +1 Attack. Note that this can be combined with an additional close combat weapon for a total of +2 attacks.</characteristic>
       </characteristics>
     </profile>
     <profile name="Clone Field" id="28e8-d1b7-5736-b8c6" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
@@ -1357,7 +1357,7 @@
     </profile>
     <profile name="Chain-snares" id="9e1b-245f-0c76-fa3b" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
       <characteristics>
-        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A vehicle with chain-snares cause D3+1 S4 Ap- hits on all unengaged non-vehicle enemy units that is passes over during the Movement phase, resolved immediately. Cover saves may be taken as normal.</characteristic>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A vehicle with chain-snares causes D3+1 S4 Ap- hits on all unengaged non-vehicle enemy units that it passes over during the Movement phase, resolved immediately. Cover saves may be taken as normal.</characteristic>
       </characteristics>
     </profile>
     <profile name="Enhanced Aethersails" id="74ef-0200-0c7d-c281" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
@@ -1387,7 +1387,7 @@
     </profile>
     <profile name="Torment Grenade Launchers" id="156f-4eb3-ef7b-0c00" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
       <characteristics>
-        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Any enemy unit that is within 6&quot; of one or more vehicles with torment grenade launchers suffer a -1 penalty to its Leadership. Enemy units must pass a Morale check if they wish to assault such a vehicle - if this test is failed, they may not assault that turn.</characteristic>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Some Dark Eldar skimmers are modified to incorporate hull-mounted launchers that send barbed grenades spinning into the ranks of the foe. Each grenade spews out an ochre cloud of phantasm gas that causes abject terror in the minds of those nearby. To represent this, any enemy unit that is within 6&quot; of one or more vehicles with torment grenade launchers suffers a -1 penalty to its Leadership. Enemy units must pass a Morale check if they wish to assault such a vehicle – if this test is failed, they may not assault that turn.</characteristic>
       </characteristics>
     </profile>
     <profile name="Retrofire Jets" id="5d3f-a966-a149-6041" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
@@ -1641,14 +1641,14 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
             <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a power weapon that always wounds on a 3+.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Master Tactitian" id="81fe-cda9-7fdc-45a7" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
+        <profile name="Master Tactician" id="81fe-cda9-7fdc-45a7" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Vect seizes the Initiative on the roll of a 4+.</characteristic>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Vect seizes the initiative on the roll of a 4+ (turns out he had it all along!).</characteristic>
           </characteristics>
         </profile>
         <profile name="Ancient Nemesis" id="b211-7898-a581-813a" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Vect has the Preferred Enemy rul against all units. Against Eldar or Dark Eldar units, Vect also re-rolls failed To Wound rolls.</characteristic>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Vect knows the weaknesses of every living thing, and those of his own race most thoroughly of all. He has the Preferred Enemy rule against all units. Against Eldar or Dark Eldar units, Vect also re-rolls failed To Wound rolls.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1899,14 +1899,14 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
             <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the beginning of any round of close combat in which Drazhar is involved, he may move to any part of the same combat where there is room to place him. He must be placed in base-to-base contact with an enemy model and remain in coherency with any unit he has joined.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Reposte" id="2bfe-f3c0-a710-93a4" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
+        <profile name="Riposte" id="2bfe-f3c0-a710-93a4" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">When Drazhar makes an armour save of 6 in close combat he may make a single bonus attack at his basic Strength, directed at the unit that caused the wound, and made at the same Initiative step.</characteristic>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Such is Drazhar’s skill that when he makes an armour save of 6 in close combat he may make a single bonus attack at his basic Strength, directed at the unit that caused the wound, and made at the same Initiative step.</characteristic>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Lelith Hasperax" id="851f-8334-aa53-7a21" hidden="false" import="true" type="unit">
+    <selectionEntry name="Lelith Hesperax" id="851f-8334-aa53-7a21" hidden="false" import="true" type="unit">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="175"/>
       </costs>
@@ -1932,7 +1932,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         </profile>
         <profile name="A League Apart" id="6111-de65-8a3e-6122" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Lelith gets a number of bonus Attacks equal to the difference between her Weapon Skill and the highest Weapon Skill amongst enemy models she is in base contact with. For example: Lelith is in base contact with a mob of Orks (WS 4) led by an Ork Warboss (WS 5). Lelith will therefore get four bonus attacks that wound (Lelith&apos;s WS 9 minus the Warboss&apos; WS 5), plus an additional bonus attack from wielding an addition hand weapon - a grand total of nine attacks!</characteristic>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Lelith gets a number of bonus Attacks equal to the difference between her Weapon Skill and the highest Weapon Skill amongst enemy models she is in base contact with. For example: Lelith is in base contact with a mob of Orks (WS 4) led by an Ork Warboss (WS 5). Lelith will therefore get four bonus attacks that round (Lelith’s WS 9 minus the Warboss’s WS 5), plus an additional bonus attack for wielding an additional hand weapon – a grand total of nine attacks!</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1957,7 +1957,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
       <profiles>
         <profile name="Master Haemonculus" id="33e2-2b7c-9fd9-61ca" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Wracks are Troop choices in an army that includes Urien Rakarth. Any unit of Grotesques in the same army as Urien Rakarth can be upgraded from S5 to S6 at the cost of +5 Points per model.</characteristic>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Wracks are Troops choices in an army that includes Urien Rakarth. Any unit of Grotesques in the same army as Urien Rakarth can be upgraded from S5 to S6 at the cost of +5 points per model.</characteristic>
           </characteristics>
         </profile>
         <profile name="Ichor Gauntlet" id="96bd-25f9-af5b-3380" hidden="false" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons">
@@ -1972,7 +1972,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         </profile>
         <profile name="Father of Pain" id="ea04-639f-bc77-3fa5" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Urien begins the game with a pain token. Furthermore, to represent Rakarth&apos;s fleshcrafting, choose D3 units at the beginning of the game. These must be Wrack or Grotesque units. Each of these units gain a pain token.</characteristic>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Urien begins the game with a pain token. Furthermore, to represent Rakarth’s fleshcrafting, choose D3 units at the beginning of the game. These must be Wrack or Grotesque units. Each of these units gains a pain token.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2332,7 +2332,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
             <infoLink name="Eyeburst" id="464b-7395-9229-4723" hidden="false" targetId="7e3f-014f-93d3-76d2" type="profile"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry name="Lhameans" id="4ff2-e041-8b55-7fed" hidden="false" import="true" type="model">
+        <selectionEntry name="Lhamaeans" id="4ff2-e041-8b55-7fed" hidden="false" import="true" type="model">
           <constraints>
             <constraint id="1616-08d0-0ab7-336d" field="selections" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="32f2-3e24-c386-346a" field="selections" scope="parent" shared="true" type="max" value="2"/>
@@ -2684,7 +2684,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         <modifier affects="self.entries.forces.recursive.0aeb-8ced-83c5-3dcd" field="hidden" scope="f9e0-9be9-a007-5d68" type="set" value="true"/>
       </modifiers>
       <selectionEntryGroups>
-        <selectionEntryGroup name="You may include up to three Haemonculus in one HQ choice" id="23ab-9a15-c7a0-c52a" defaultSelectionEntryId="116e-4b4e-eaac-cfb1" hidden="false">
+        <selectionEntryGroup name="You may include between one and three Haemonculi per HQ choice, though only one of these may be a Haemonculus Ancient." id="23ab-9a15-c7a0-c52a" defaultSelectionEntryId="116e-4b4e-eaac-cfb1" hidden="false">
           <constraints>
             <constraint id="3312-aa49-82b4-db70" field="selections" scope="self" shared="true" type="min" value="1"/>
             <constraint id="ec8d-e83c-02b7-9928" field="selections" scope="self" shared="true" type="max" value="3"/>
@@ -3106,7 +3106,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
       <profiles>
         <profile name="Berserk Rampage" id="97f1-6990-7962-2d0b" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a unit of Grotesques does not include an Independent Character at the beginning of the Movement phase, roll a dice. On the roll of a 1, the Grotesque go on a rampage, inflicting 2D6 S5 AP- hits on all units within 2D6&quot; (friend or foe) before being removed from play. Vehicles are hit on their side armour. If a 2+ was rolled, the Grotesque act as normal.</characteristic>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a unit of Grotesques does not include an Independent Character at the beginning of the Movement phase, roll a dice. On the roll of a 1, the Grotesques go on the rampage, inflicting 2D6 S5 AP- hits on all units within 2D6&quot; (friend or foe) before being removed from play. Vehicles are hit on their side armour. If a 2+ was rolled, the Grotesques act as normal.</characteristic>
           </characteristics>
         </profile>
         <profile name="Bulky" id="5b53-7664-44e7-b98f" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
@@ -3690,7 +3690,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                 <infoLink name="Kabalite Trueborn" id="14d4-24bc-ac17-e58e" hidden="false" targetId="8b63-bac6-4d4f-5d76" type="profile"/>
               </infoLinks>
               <selectionEntries>
-                <selectionEntry name="Plasm Grenades" id="d820-8911-cc58-1ba4" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Plasma Grenades" id="d820-8911-cc58-1ba4" hidden="false" import="true" type="upgrade">
                   <constraints>
                     <constraint id="0467-b831-3170-3a5a" field="selections" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
@@ -3763,7 +3763,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                 <infoLink name="Dracon" id="dcaa-3d91-45da-40b4" hidden="false" targetId="e162-277b-b88d-5830" type="profile"/>
               </infoLinks>
               <selectionEntries>
-                <selectionEntry name="Plasm Grenades" id="0d67-12be-0b15-d017" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Plasma Grenades" id="0d67-12be-0b15-d017" hidden="false" import="true" type="upgrade">
                   <constraints>
                     <constraint id="2358-ff7e-8e84-c0af" field="selections" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
@@ -3899,7 +3899,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                 <infoLink name="Kabalite Trueborn" id="4e69-f19e-285c-00fb" hidden="false" targetId="8b63-bac6-4d4f-5d76" type="profile"/>
               </infoLinks>
               <selectionEntries>
-                <selectionEntry name="Plasm Grenades" id="2d31-0938-c1a0-3437" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Plasma Grenades" id="2d31-0938-c1a0-3437" hidden="false" import="true" type="upgrade">
                   <constraints>
                     <constraint id="15bf-ba78-6c62-2f07" field="selections" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
@@ -3966,7 +3966,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                 <infoLink name="Kabalite Trueborn" id="dc1c-b9cb-502b-d99f" hidden="false" targetId="8b63-bac6-4d4f-5d76" type="profile"/>
               </infoLinks>
               <selectionEntries>
-                <selectionEntry name="Plasm Grenades" id="149e-0966-6e2e-db8e" hidden="false" import="true" type="upgrade">
+                <selectionEntry name="Plasma Grenades" id="149e-0966-6e2e-db8e" hidden="false" import="true" type="upgrade">
                   <constraints>
                     <constraint id="a551-f0aa-7153-37ab" field="selections" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
@@ -4634,7 +4634,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Sybarite may take" id="3bf3-4df5-6021-0421" hidden="false">
+                <selectionEntryGroup name="The Hekatrix may take:" id="3bf3-4df5-6021-0421" hidden="false">
                   <selectionEntries>
                     <selectionEntry name="Phantasm Grenade Launcher" id="c797-dbe2-e246-f439" hidden="false" import="true" type="upgrade">
                       <constraints>
